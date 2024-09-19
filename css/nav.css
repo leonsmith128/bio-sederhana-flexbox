@@ -1,0 +1,70 @@
+.navbar{
+	display: flex;
+	padding: 8px 15px;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 10px;
+	background-color: rgba(69, 71, 90, 0.2);
+	border-radius: 7px;
+
+}
+.navbar ul{
+	list-style-type: none;
+	text-decoration: none;
+}
+.navbar a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.navItem{
+	gap: 10px;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-around;
+}
+
+.a-home{
+	display: flex;
+}
+
+.home{
+	color: rgb(245, 224, 220);
+	padding: 5px 10px;
+}
+
+.bio{
+	color: rgb(235, 160, 172);
+	padding: 5px 10px;
+}
+.gallery{
+	color: rgb(245, 194, 231);
+	padding: 5px 10px;
+}
+.hobby{
+	color: rgb(242, 205, 205);
+	padding: 5px 10px;
+}
+
+.home:hover{
+	background-color: rgba(245, 224, 220, 0.7);
+	color: #1e1e2e;
+	border-radius: 12px;
+}
+
+.bio:hover{
+	color: #1e1e2e;
+	background-color: rgba(235, 160, 172, 0.7);
+	border-radius: 12px;
+}
+.gallery:hover{
+	background-color: rgba(245, 194, 231, 0.7);
+	border-radius: 12px;
+	color: #1e1e2e;
+}
+.hobby:hover{
+	background-color: rgba(242, 205, 205, 0.7);
+	border-radius: 12px;
+	color: #1e1e2e;
+
+}

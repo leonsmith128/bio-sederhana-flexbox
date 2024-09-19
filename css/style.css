@@ -1,0 +1,73 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto;
+	background-color: #1e1e2e;
+	color: #cdd6f4;
+	width: 80%;
+	margin: auto;
+}
+
+.homeContainer {
+	display: flex;
+	flex-direction: column;
+	/*margin: 40px 20px auto;*/
+	padding: 20px;
+	margin: 10% 0px;
+}
+
+.header {
+	font-size: 20px;
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.cardHome{
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.cardHome p{
+	padding: 5px;
+}
+
+.cardHome a{
+	text-decoration: none;
+	color: #cdd6f4;
+	padding: 5px;
+}
+
+.cardBio, .cardHobby, .cardGallery{
+	flex: 1;
+	height: 100px;
+	max-height: 150px;
+	padding: 20px;
+	border-radius: 15px;
+	box-sizing: content-box;
+}
+
+.cardBio {
+	background-color: rgba(64, 160, 43, 0.7);
+}
+
+.cardHobby {
+	background-color: rgba(223, 142, 29, 0.7);
+}
+
+.cardGallery {
+	background-color: rgba(23, 146, 153, 0.7);
+}
+
+.cardBio a:hover, .cardGallery a:hover, .cardHobby a:hover {
+	background-color: rgba(205, 214, 244, 0.2);
+	border-radius: 5px;
+	padding: 0px 5px;
+}
