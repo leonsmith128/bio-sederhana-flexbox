@@ -1,8 +1,8 @@
 * {
 	padding: 0px;
 	margin: 0px;
+    box-sizing: border-box; 
 }
-
 body {
 	font-family: Roboto;
 	background-color: #1e1e2e;
@@ -12,7 +12,6 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-
 .container {
 	display: flex;
 	flex-direction: column;
@@ -20,7 +19,6 @@ body {
 	justify-content: space-between;
 	margin: 5px 10px;
 }
-
 .boxOne{
 	display: flex;
 	flex-direction: column;
@@ -33,31 +31,25 @@ body {
 	margin-top: 30px;
 	border-radius: 15px;
 }
-
 .container ul{
 	list-style-type: ;
 }
-
 .container li{
 	margin: 5px 0px;
 	margin-left: 20px;
 	list-style-type: circle;
 }
-
 .kenalan{
 	padding-top: 10px;
 	padding-bottom: 30px;
 }
-
 .kenalan h2{
 	font-size: 50px;
 }
-
 .kenalan p{
 	margin: 5px 0px auto;
 	margin-left: 30px;
 }
-
 .riwayat{
 	display: flex;
 	flex-direction: row;
@@ -66,35 +58,28 @@ body {
 	padding: 15px;
 	gap: 30px;
 }
-
 .riwayat a{
 	text-decoration: none;
 	color: inherit;
 }
-
 .riwayat a:hover{
 	color: rgba(235, 160, 172,1);
 }
-
 .riwayat label{
 	font-size: 28px;
 }
-
 .info, .pendidikan, .bahasa{
 	margin: 5px 0px;
 	border-radius: 15px;
 	padding: 20px;
 	flex: 1 1 50%;
 }
-
 .info{
 	background-color: rgba(23, 146, 153, 0.7);
 }
-
 .pendidikan{
 	background-color: rgba(223, 142, 29, 0.7);
 }
-
 .bahasa{
 	background-color: rgba(64, 160, 43, 0.7);
 }
